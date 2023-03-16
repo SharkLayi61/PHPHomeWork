@@ -19,8 +19,8 @@ if ($_SESSION["login"]=="no"){
 
 ?>
 登入失敗<br>
-網頁將在10秒後跳轉至登入頁面
-或是<a href="index.php">點選這裡</a>立刻跳轉
+網頁將在10秒後跳轉至登入頁面<br>
+或是<a href="index.php">點選這裡</a>立刻跳轉<br>
 <?php
 header("Refresh:10;url=index.php")
 ?>
